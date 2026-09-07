@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo Local - Butantã</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cabeçalho Escuro -->
+  <header class="hero">
+    <div class="pill-badge">Catálogo Local</div>
+    <h1>Encontre quem você precisa no seu bairro</h1>
+    <p class="subtitle">
+      O Catálogo Local conecta moradores a prestadores de serviço da vizinhança — sem taxas, sem intermediários, direto no WhatsApp.
+    </p>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="🔍 Eletricista, confeitaria, designer..." />
+    </div>
+  </header>
+
+  <!-- Grade de Prestadores -->
+  <main class="catalog-section">
+    <h2>Todos os prestadores</h2>
+    <div class="grid" id="cardsGrid">
+      <!-- Cards gerados dinamicamente pelo JavaScript -->
+    </div>
+  </main>
+
+  <!-- Banner CTA de Cadastro -->
+  <section class="cta-banner">
+    <div class="cta-text">
+      <h3>Você presta serviço no bairro?</h3>
+      <p>Cadastre seu negócio gratuitamente e seja encontrado por centenas de moradores da sua região.</p>
+    </div>
+    <div class="cta-buttons">
+      <!-- Link para o Google Forms/Airtable de cadastro -->
+      <a href="https://wa.me/5511999999999?text=Olá,%20quero%20cadastrar%20meu%20serviço" target="_blank" class="btn-primary">Quero me cadastrar &rarr;</a>
+      <a href="#como-funciona" class="btn-secondary">Saiba mais</a>
+    </div>
+  </section>
+
+  <!-- Seção Como Funciona -->
+  <footer class="how-it-works" id="como-funciona">
+    <span class="tagline">Simples e gratuito</span>
+    <h3>Como o Catálogo Local funciona</h3>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h4>Busque pelo serviço</h4>
+        <p>Use o campo de busca ou navegue pelas categorias para encontrar o que você precisa no seu bairro.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h4>Conheça o prestador</h4>
+        <p>Veja avaliações de vizinhos, fotos de trabalhos realizados e informações de contato.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h4>Entre em contato</h4>
+        <p>Fale direto pelo WhatsApp ou telefone, sem intermediários e sem cobrança de taxas.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
