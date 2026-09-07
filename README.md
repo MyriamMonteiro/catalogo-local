@@ -12,6 +12,11 @@ A proposta nasceu da necessidade de conectar moradores a profissionais da própr
 
 ---
 
+## 🎨 Protótipo no Figma
+- Você pode visualizar o fluxo e o design do projeto através do [Link do Protótipo no Figma](https://www.figma.com/proto/OyzM0ghLoikorJ0LOhM1FB/wireframe---Cat%C3%A1logo-Local?node-id=0-1&t=Fz8fjjUlSgvgoSbv-1).
+
+---
+
 ## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica da página e acessibilidade.
