@@ -12,7 +12,7 @@ A proposta nasceu da necessidade de conectar moradores a profissionais da própr
 
 ---
 
-## 🎨 Protótipo no Figma
+## Protótipo no Figma
 - Você pode visualizar o fluxo e o design do projeto através do [Link do Protótipo no Figma](https://www.figma.com/proto/OyzM0ghLoikorJ0LOhM1FB/wireframe---Cat%C3%A1logo-Local?node-id=0-1&t=Fz8fjjUlSgvgoSbv-1).
 
 ---
@@ -35,7 +35,7 @@ Este projeto extensionista está alinhado aos Objetivos de Desenvolvimento Suste
 
 ---
 
-## 👥 Integrantes da Equipe
+## Integrantes da Equipe
 
 - **Karina Monteiro de Souza** — RU: 5085157
 - **Myriam Monteiro de Souza** — RU: 5085986
