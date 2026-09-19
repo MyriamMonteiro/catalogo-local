@@ -1,4 +1,64 @@
-// Base de dados local simulada (compatível com os dados reais do piloto)
+const grid = document.getElementById("cardsGrid");
+const searchInput = document.getElementById("searchInput");
+let prestadores = [];
+
+// Função para buscar os dados do arquivo JSON mantendo a estética intacta
+function carregarDados() {
+  fetch("assets/dados.json")
+    .then(response => response.json())
+    .then(data => {
+      prestadores = data;
+      renderCards(prestadores);
+    })
+    .catch(error => console.error("Erro ao carregar o banco de dados JSON:", error));
+}
+
+function renderCards(lista) {
+  grid.innerHTML = "";
+  if (lista.length === 0) {
+    grid.innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Nenhum prestador encontrado para essa busca.</p>";
+    return;
+  }
+
+  lista.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="card-img-placeholder">📷</div>
+      <div class="card-content">
+        <div class="card-header">
+          <span class="card-title">${item.nome}</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <div class="card-cat">${item.categoria}</div>
+        <p class="card-desc">${item.descricao}</p>
+        <div class="card-footer">
+          <span class="card-location">📍 ${item.bairro}</span>
+          <a class="btn-contact" href="https://wa.me/${item.whats}?text=Olá,%20vi%20seu%20contato%20no%20Catálogo%20Local" target="_blank">Contato</a>
+        </div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// Filtro de busca por nome ou categoria em tempo real
+searchInput.addEventListener("input", (e) => {
+  const termo = e.target.value.toLowerCase();
+  const filtrados = prestadores.filter(p => 
+    p.nome.toLowerCase().includes(termo) || 
+    p.categoria.toLowerCase().includes(termo) ||
+    p.descricao.toLowerCase().includes(termo)
+  );
+  renderCards(filtrados);
+});
+
+// Inicialização
+document.addEventListener("DOMContentLoaded", carregarDados);
+
+
+
+/*// Base de dados local simulada (compatível com os dados reais do piloto)
 const prestadores = [
   {
     nome: "Mariana Silva",
@@ -73,4 +133,4 @@ searchInput.addEventListener("input", (e) => {
 });
 
 // Renderização inicial
-renderCards(prestadores);
+renderCards(prestadores);*/
