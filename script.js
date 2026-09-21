@@ -54,6 +54,17 @@ const prestadores = [
     whats: "5511943210987",
     descricao: "Reforço escolar para ensino fundamental e médio.",
     imagem: "img5.jpg"
+  },
+  {
+    id: 6,
+    nome: "Ana Clara",
+    servico: "Manicure",
+    categoria: "Estética",
+    bairro: "Butantã",
+    telefone: "(11) 9699-5731",
+    whats: "551196995731",
+    descricao: "Unhas de gel, pedicure e manicure.",
+    imagem: "img6.jpg"
   }
 ];
 
