@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nome": "José Pedro",
+    "servico": "Eletricista Residencial",
+    "categoria": "Manutenção",
+    "bairro": "Butantã",
+    "telefone": "(11) 98765-4321",
+    "descricao": "Instalações elétricas, quadros de força e pequenos reparos."
+  },
+  {
+    "id": 2,
+    "nome": "Rita de Cassia",
+    "servico": "Faxina",
+    "categoria": "Serviços Domésticos",
+    "bairro": "Butantã",
+    "telefone": "(11) 97654-3210",
+    "descricao": "Faxineira e diarista."
+  },
+  {
+    "id": 3,
+    "nome": "Kelwin Marques",
+    "servico": "Fotografia de casamentos, aniversários, eventos no geral",
+    "categoria": "Fotografia",
+    "bairro": "Butantã",
+    "telefone": "(11) 96543-2109",
+    "descricao": "Fotos de eventos."
+  },
+  {
+    "id": 4,
+    "nome": "Fernanda Nogueira",
+    "servico": "Ilustração e design gráfico",
+    "categoria": "Artes gráficas",
+    "bairro": "Butantã",
+    "telefone": "(11) 95432-1098",
+    "descricao": "Desenhos digitais, arte para posters, banners e panfletos."
+  },
+  {
+    "id": 5,
+    "nome": "Juliana Prado",
+    "servico": "Aulas Particulares de Matemática",
+    "categoria": "Educação",
+    "bairro": "Butantã",
+    "telefone": "(11) 94321-0987",
+    "descricao": "Reforço escolar para ensino fundamental e médio."
+  }
+]
