@@ -54,6 +54,17 @@ const prestadores = [
     whats: "5511943210987",
     descricao: "Reforço escolar para ensino fundamental e médio.",
     imagem: "img5.jpg"
+  },
+  {
+    id: 6,
+    nome: "Nome",
+    servico: "Serviço",
+    categoria: "Categoria",
+    bairro: "Butantã",
+    telefone: "(11) 90000-0000",
+    whats: "5511900000000",
+    descricao: "Breve descrição do trabalho realizado.",
+    imagem: "img6.jpg"
   }
 ];
 
