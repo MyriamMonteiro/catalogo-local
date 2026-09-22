@@ -35,6 +35,7 @@ Este projeto extensionista está alinhado aos Objetivos de Desenvolvimento Suste
 
 ---
 
+Acesse ao site - [Catálogo Digital](https://myriammonteiro.github.io/catalogo-local/).
 Acesse ao vídeo no youtube mostrando o funcionamento do projeto: [Acesse aqui](https://youtu.be/4FK9FSrtvpw)
 
 ## Integrantes da Equipe
