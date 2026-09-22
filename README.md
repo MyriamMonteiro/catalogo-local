@@ -35,6 +35,8 @@ Este projeto extensionista está alinhado aos Objetivos de Desenvolvimento Suste
 
 ---
 
+Acesse ao vídeo no youtube mostrando o funcionamento do projeto: [Acesse aqui](https://youtu.be/4FK9FSrtvpw)
+
 ## Integrantes da Equipe
 
 - **Karina Monteiro de Souza** — RU: 5085157
